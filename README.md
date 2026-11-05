@@ -1,114 +1,137 @@
-🚀**NETWORKWALKS-B084-WK1-PMx-Wireshark-Project-Extra**
+**# 🛡️ Wireshark – SOC Analyst Internship Project**
 
-🌐**Project Overview**
+**## 📌 Project Overview**
 
-This project is part of the **NetworkWalks Wireshark Project – Extra Module**, focused on practical network traffic analysis using Wireshark.
+This project is part of the **NetworkWalks SOC Internship – Extra Module**, focused on practical network traffic analysis and investigation using **Wireshark**.
 
-The objective of this project is to develop hands-on SOC analyst skills by investigating six browser-based network forensics labs. Each lab provides a network packet capture (PCAP) containing different scenarios that require investigation, analysis, and identification of suspicious activities.
+The project consists of six browser-based SOC investigation labs, each designed to simulate real-world network security scenarios. Through these hands-on exercises, I explored packet captures, investigated suspicious communication, identified potential attackers, and analyzed network-based security incidents.
 
-Through these exercises, I practiced examining network traffic, identifying potential attackers, analyzing communication sessions, detecting brute-force attempts, and investigating suspicious network activities.
+The main objective is to develop practical skills in network forensics, traffic analysis, threat investigation, and incident identification from a SOC analyst's perspective.
 
-🎯**Project Objectives**
+**## 🎯 Project Objectives**
 
 - Understand network traffic analysis using Wireshark.
 - Identify suspicious IP addresses and potential attackers.
 - Analyze TCP communication using Follow TCP Stream.
-- Detect repeated login attempts and brute-force activity.
-- Investigate credentials transmitted over unencrypted HTTP.
-- Extract and analyze hidden information from packet captures.
-- Investigate VoIP communication and identify suspicious calls.
+- Investigate sensitive information transmitted over HTTP.
+- Detect brute-force attacks through repeated login attempts.
+- Analyze VoIP traffic and investigate suspicious calls.
+- Develop practical network investigation and forensic analysis skills.
 
-🏷️**Wireshark Labs Completed**
+**## 🔍 SOC Investigation Labs**
 
-This project consists of six practical investigation labs, each containing 10 tasks.
+This project includes **6 practical labs with 10 tasks each**, covering a total of **60 investigation tasks**.
 
-01| Identify the Attacker's IP| Identify suspicious source IP addresses
-02| Follow TCP Stream – Part 1| Analyze TCP sessions and uncover hidden data
-03| Catch the Brute Force Attacker| Detect repeated login attempts
-04| Follow TCP Stream – Part 2| Reconstruct conversations and analyze transmitted data
-05| HTTP Plain Text Credentials| Identify usernames and passwords transmitted over HTTP
-06| Catch the Call Scammer| Investigate VoIP traffic and identify the suspicious caller
+**### Lab 01 – Identify the Attacker's IP Address**
+**Focus:** Attacker Identification and IP Analysis
 
-Total Tasks: 60 (10 tasks per lab)
-
-💻**Tools and Technologies**
-
-- Wireshark – Network protocol analyzer.
-- PCAP Files – Captured network traffic for investigation.
-- TCP Stream Analysis – Reconstructing network conversations.
-- HTTP Analysis – Examining unencrypted web traffic.
-- VoIP Analysis – Investigating voice communication traffic.
-- Network Forensics – Extracting useful information from packet captures.
-
-🔍**Key Wireshark Skills Practiced**
-
-1. **IP Address Investigation*8
-
-Identifying source and destination IP addresses to trace suspicious network activity.
-
-<img width="1080" height="1700" alt="Lab 3 Result - SIVA BHARATHI R" src="https://github.com/user-attachments/assets/47d26db6-2c70-4ded-a30a-d5c22901cfc9" />
+- Investigate captured network traffic.
+- Examine source and destination IP addresses.
+- Identify suspicious communication patterns.
+- Determine the attacker's IP address.
+  <img width="1080" height="1700" alt="Identify the attacker&#39;s IP - lab 3 result" src="https://github.com/user-attachments/assets/3e2d14f9-e578-4c2f-ac90-f6f7af9bf841" />
 
 
-2. **Follow TCP Stream*8
+**### Lab 02 – Follow TCP Streams (Part 1)**
+**Focus:** TCP Stream Analysis and Hidden Data
 
-Reconstructing TCP communication sessions to understand the data exchanged between systems.
-<img width="1080" height="1700" alt="Lab 4 Result - SIVA BHARATHI R" src="https://github.com/user-attachments/assets/f89cc150-ac13-475d-be81-2b233b462e82" />
-
-
-3. **Brute-Force Detection**
-
-Identifying repeated authentication attempts and recognizing suspicious login patterns.
-<img width="1080" height="1700" alt="Lab 5 Result - SIVA BHARATHI R" src="https://github.com/user-attachments/assets/70f358b2-d521-471f-9094-6028767378f4" />
+- Analyze TCP communication sessions.
+- Use the Follow TCP Stream feature.
+- Reconstruct conversations between communicating systems.
+- Investigate hidden information within network traffic.
+  <img width="1080" height="1700" alt="Follow TCP stream Part 1 -Lab 4 Result" src="https://github.com/user-attachments/assets/47453190-cf75-4e3b-9929-9bde94b61a9a" />
 
 
-4. **HTTP Credential Analysis**
+**### Lab 03 – Follow TCP Streams (Part 2)**
+**Focus:** Network Conversation Reconstruction
 
-Understanding the security risks of transmitting usernames and passwords over unencrypted HTTP connections.
-<img width="1080" height="1700" alt="Lab 6 Result - SIVA BHARATHI R" src="https://github.com/user-attachments/assets/012d8edc-7631-4583-b6fc-2044d0a00ef1" />
-
-
-5. **Hidden Data Investigation**
-
-Examining packet contents and reconstructed sessions to uncover information that may not be immediately visible.
-<img width="1080" height="1700" alt="Lab 7 Result - SIVA BHARATHI R" src="https://github.com/user-attachments/assets/4bfeb194-c693-4147-81b0-b69598273b87" />
+- Examine TCP streams in packet captures.
+- Reconstruct transmitted conversations.
+- Analyze exchanged data between systems.
+- Identify relevant information from reconstructed sessions.
+  <img width="1080" height="1700" alt="Follow TCP streams - part 2- Lab 5 Result" src="https://github.com/user-attachments/assets/12ceb0fd-b6be-4d5c-a3e0-becdbba7a96f" />
 
 
-6. **VoIP Investigation**
+**### Lab 04 – HTTP Plain Text Credentials**
+**Focus:** HTTP Traffic and Credential Analysis
 
-Analyzing voice traffic and investigating suspicious calls using available packet capture data.
-<img width="1080" height="1700" alt="Lab 8 Result - SIVA BHARATHI R" src="https://github.com/user-attachments/assets/9be2efa5-4b2a-4737-be17-856e5e3d1eae" />
+- Examine HTTP communication.
+- Identify unencrypted data transmission.
+- Investigate usernames and passwords exposed in network traffic.
+- Understand the security risks of transmitting credentials over HTTP.
+  <img width="1080" height="1700" alt="HTTP Plain Text Credentials-Lab 6 Result" src="https://github.com/user-attachments/assets/ff4dc096-9277-4ccf-8845-e269e53c6f13" />
 
 
-📕**What I Learned**
+**### Lab 05 – Catch the Brute Force Attackers**
+**Focus:** Brute-Force Attack Detection
 
-- Practical network packet inspection.
-- Understanding TCP communication and session reconstruction.
-- Recognizing suspicious login patterns.
-- Identifying potential credential exposure.
-- Investigating network-based security incidents.
-- Applying basic digital network forensics techniques.
-- Developing an investigation mindset as a SOC analyst.
+- Investigate repeated login attempts.
+- Analyze suspicious authentication patterns.
+- Identify the source IP responsible for repeated attempts.
+- Understand how brute-force activities appear in packet captures.
+  <img width="1080" height="1700" alt="Brute Force -Lab 7 Result" src="https://github.com/user-attachments/assets/dc88e4a4-8cf8-4075-88a3-21b9ebd0a517" />
 
-🏆**Project Outcome**
 
-Successfully worked through six Wireshark-based SOC investigation labs, covering 60 practical tasks involving network traffic analysis, attacker identification, credential investigation, brute-force detection, and VoIP forensics.
+**### Lab 06 – Catch the Call Scammer**
+**Focus:** VoIP Traffic and Call Investigation
 
-This project helped strengthen my understanding of how SOC analysts investigate suspicious network activities using packet analysis.
+- Investigate captured voice communication traffic.
+- Analyze VoIP-related packets.
+- Reconstruct and play the available call recording.
+- Examine the conversation and identify the suspected scammer.
+  <img width="1080" height="1700" alt="VoIP Call Replay - Lab 8 Result" src="https://github.com/user-attachments/assets/cdfc9396-ecf9-4b5c-b8ab-4d30ca45f5ef" />
 
-⚖️**Ethical Considerations**
 
-All investigations were performed within the authorized internship labs using the provided packet captures.
+**## 🛠️ Tools and Technologies**
 
-No unauthorized networks or third-party systems were targeted.
+- **Wireshark** – Network protocol analyzer for packet inspection and traffic investigation.
+- **PCAP Files** – Captured network traffic used for forensic analysis.
+- **TCP Stream Analysis** – Reconstructing TCP communication sessions.
+- **HTTP Analysis** – Examining unencrypted web communication.
+- **VoIP Analysis** – Investigating voice communication traffic.
+- **Network Forensics** – Extracting and analyzing information from packet captures.
 
-**Acknowledgement**
+**## 📚 Key Skills Practiced**
 
-Thanks to NetworkWalks for providing the opportunity to gain practical experience through this SOC Analyst internship module.
+- Network Packet Analysis
+- IP Address Investigation
+- TCP Stream Reconstruction
+- HTTP Credential Analysis
+- Brute-Force Attack Identification
+- VoIP Traffic Investigation
+- Network Forensics
+- Security Incident Investigation
 
----
+**## 💡 Key Learnings**
 
-Project Type: Cybersecurity | SOC Internship | Network Forensics
-Tool: Wireshark
-Level: Beginner to Intermediate
-Labs: 6
-Tasks: 60
+Through these practical exercises, I gained a better understanding of how network traffic can reveal suspicious activities and potential security incidents.
+
+Some of my key takeaways include:
+
+- Understanding how attackers can be identified through network traffic.
+- Learning how TCP streams help reconstruct communication.
+- Recognizing the risks of transmitting credentials without encryption.
+- Identifying brute-force patterns through repeated authentication attempts.
+- Understanding how VoIP traffic can be investigated using packet analysis.
+- Developing an investigative approach to network security incidents.
+
+**## 🏆 Project Outcome**
+
+Successfully completed six Wireshark-based SOC investigation labs covering **60 practical tasks**.
+
+This experience strengthened my foundational knowledge of network traffic analysis, packet inspection, network forensics, and security incident investigation.
+
+It also provided practical exposure to the type of network investigation activities performed by Security Operations Center (SOC) analysts.
+
+**## 🎓 Acknowledgement**
+
+I would like to express my gratitude to **NetworkWalks** for providing this practical learning opportunity through the SOC Analyst Internship.
+
+This module helped me gain hands-on exposure to Wireshark and understand the importance of network traffic analysis in cybersecurity operations.
+
+**## ⚖️ Ethical Considerations**
+
+All investigations were performed within the authorized internship lab environment using the provided network captures.
+
+No unauthorized networks, systems, or third-party traffic were accessed or tested.
+
